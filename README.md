@@ -3,7 +3,7 @@
 
 ## Подготовка к работе
 
-1. `git clone git@github.com:webzlodimir/gulp-template.git`
+1. `git@github.com:SergeyKI5130/gulp-start-build.git`
 2. `cd gulp-template`
 3. `yarn install`
 4. `yarn start`
