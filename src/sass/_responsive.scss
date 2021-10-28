@@ -1,0 +1,45 @@
+/*
+//родная
+.container {
+  max-width: 1400px;
+}
+
+//Десктоп маленький
+ 
+@media screen and (max-width: 1429px) {
+}
+
+//  Планшет горизонтальный
+
+@media screen and (max-width: 1279px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+//Планшет вертикальный
+ 
+@media screen and (max-width: 1023px) {
+}
+
+//Мобильные устройства
+ 
+@media screen and (max-width: 767px) {
+}
+*/
+
+//<ОСНОВНАЯ СЕТКА>===========================================================================================================
+._container {
+	max-width: $maxWidthContainer + px;
+	margin: 0 auto;
+	@media (max-width: $md1+px) {
+		max-width: 970px;
+	}
+	@media (max-width: $md2+px) {
+		max-width: 750px;
+	}
+	@media (max-width: $md3+px) {
+		max-width: none;
+		padding: 0 10px;
+	}
+}
